@@ -12,5 +12,6 @@ After some research I found that the response is in "sign and magnitude notation
 Because of the length of the output, converting this sign and magnitude notation into binary by hand would be far too time consuming. Most online calculators only allow for conversion one value at a time, which is also too slow...
 
 **So I took it upon myself to create my own script to convert sign and magnitude into binary.**
+The script is designed to run from the command line so that it can easily be used and repurposed based on future needs.
 
 Once I had the information in binary format, I converted the 8 bit binary to ASCII and extracted the flag using the grep command in Linux.
